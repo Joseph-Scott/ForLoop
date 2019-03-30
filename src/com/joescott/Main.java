@@ -23,6 +23,10 @@ public class Main {
         // How would you modify the for loop above to do the same thing as
         // shown but to start from 8% and work back to 2%
 
+        for(int i=8; i>=2; i--) {
+            System.out.println("10,000 at " + i + "% interest = " + calculateInterest(10000.0, i));
+        }
+
     }
 
     public static double calculateInterest(double amount, double interestRate) {
