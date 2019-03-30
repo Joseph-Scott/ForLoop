@@ -16,6 +16,10 @@ public class Main {
         // the amount of 10000 with an interestRate of 2,3,4,5,6,7, and 8
         // and print the results to the console window.
 
+        for(int i=2; i<9; i++) {
+            System.out.println("10,000 at " + i + "% interest = " + calculateInterest(10000.0, i));
+        }
+
     }
 
     public static double calculateInterest(double amount, double interestRate) {
